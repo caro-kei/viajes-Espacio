@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+/*Paleta de colores
+https://paletadecolores.com.ar/paleta/7b7b7b/5c5c5c/3d3d3d/1f1f1f/000000/
+.color1 { #7b7b7b }; gris
+.color2 { #5c5c5c };
+.color3 { #3d3d3d };
+.color4 { #1f1f1f };
+.color5 { #000000 }; negro
+
+https://fonts.google.com/specimen/Libre+Baskerville*/
+
+ody {
+    background-color: #000000;
+    font-family: 'Libre Baskerville', serif;
+}
+body {
+    /* Establecer la imagen de fondo */
+    background-image: url('images/cieloNegro.gif');
+    /* Asegurarse de que la imagen cubra todo el fondo */
+    background-size: cover;
+    /* Hacer que la imagen de fondo sea fija */
+    background-attachment: fixed;
+    /* Centrar y no repetir la imagen de fondo */
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+#carouselExampleControlsNoTouching{
+    margin-top: 20px;
+    padding: 3px;
+    width: auto;
+    height: 50%;
+}
+.carousel-item{
+    height: 400px;
+}
+.bg-dark {
+    background-color: #7b7b7b  ;
+}
+.navbar {
+    background-color: #000000;
+}
+.btn{
+    background-color: #1f1f1f;
+}
+.card-title{
+    background-color: #7b7b7b;
+}
+.card-text{ background-color: #7b7b7b;
+
+}
+.row{
+    background-color: #000000;
+}
+.card{
+    background-color: #7b7b7b;
+}
+/*estilos a contacto*/
+
+.neon-text {
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    transition: text-shadow 0.5s ease   ;
+    -webkit-transition: text-shadow 0.5s ease   ;
+    -moz-transition: text-shadow 0.5s ease   ;
+    -ms-transition: text-shadow 0.5s ease   ;
+    -o-transition: text-shadow 0.5s ease   ;
+}
+.neon-text:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #0ff, 0 0 70px #0ff, 0 0 80px #0ff, 0 0 100px #0ff, 0 0 150px #0ff;
+}
+.row{
+    background-color: #7b7b7b;
+}
+.nav-link{
+    background-color: #000000 !important;
+}
+.espacio{
+    text-decoration: #000000 !important;
+}
+.navbar-brand{
+    background-color: #3d3d3d;
+
+}
+/*estilos a contacto*/
