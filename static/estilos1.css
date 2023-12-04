@@ -18,6 +18,9 @@ Gris (#808080): El gris se usa para detalles más oscuros o sombras. Agrega prof
         body {
             font-family: Arial, sans-serif;
             background-color: #000000;
+            width: 330px;
+            height: 430px;
+            
         }
        /* Estilos del Navbar */
 .navbar-custom {

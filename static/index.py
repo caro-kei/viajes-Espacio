@@ -99,8 +99,8 @@ class Catalogo:
 # Ejemplo de uso de la clase Catalogo
 # -------------------------------------------------------------------
 catalogo = Catalogo()
-catalogo.agregar_producto(1, 'Teclado USB 101 teclas', 10, 4500, 'teclado.jpg', 101)
-catalogo.agregar_producto(2, 'Mouse USB 3 botones', 5, 2500, 'mouse.jpg', 102)
+catalogo.agregar_producto(1, 'Viajes a la luna', 10, 4500, 'luna.jpg', 101)
+catalogo.agregar_producto(2, 'Viajes a Marte', 5, 2500, 'marte.jpg', 102)
 catalogo.listar_productos()
 catalogo.mostrar_producto(1)
 catalogo.eliminar_producto(1)
